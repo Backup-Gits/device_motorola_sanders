@@ -68,6 +68,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_AAPT_CONFIG := normal
 
+# Additional native libraries
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
+
 # Audio
 PRODUCT_PACKAGES += \
     audiod \
