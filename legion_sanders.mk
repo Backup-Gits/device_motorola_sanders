@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 $(call inherit-product, device/motorola/sanders/device.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/legion/config/common.mk)
+$(call inherit-product, vendor/legion/config/common_full_phone.mk)
 LEGION_BUILD_TYPE := OFFICIAL
 $(call inherit-product, vendor/legion/config/phone-xxhdpi-4096-dalvik-heap.mk)
 $(call inherit-product, vendor/legion/config/phone-xxhdpi-2048-hwui-memory.mk)
