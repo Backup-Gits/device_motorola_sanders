@@ -25,8 +25,6 @@ $(call inherit-product, device/motorola/sanders/device.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/legion/config/common.mk)
 LEGION_BUILD_TYPE := OFFICIAL
-$(call inherit-product, vendor/legion/config/phone-xxhdpi-4096-dalvik-heap.mk)
-$(call inherit-product, vendor/legion/config/phone-xxhdpi-2048-hwui-memory.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
