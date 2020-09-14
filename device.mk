@@ -160,7 +160,9 @@ PRODUCT_PACKAGES += \
     libhwbinder.vendor \
     libhidltransport \
     libhidltransport.vendor \
-    libcutils_shim
+    libcutils_shim \
+    libjson \
+    libjson.vendor
 
 PRODUCT_PACKAGES += android.hardware.media.omx
 
