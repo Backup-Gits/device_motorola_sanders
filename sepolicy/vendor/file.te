@@ -66,6 +66,3 @@ type theme_data_file, file_type, data_file_type;
 
 # WCNSS
 type wcnss_data_file, file_type, data_file_type;
-
-# LiveDisplay Tuneable
-type sysfs_livedisplay_tuneable, fs_type, sysfs_type;
